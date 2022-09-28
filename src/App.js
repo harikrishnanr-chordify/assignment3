@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './Components/Home';
 import About from './Components/About';
 import Contact from './Components/Contact';
-import TableList from './Components/TableList';
+import BasicTable from './Components/TableList/BasicTable';
 import Navbar from './Components/Navbar/Navbar';
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact />} />
-        <Route path='/table' element={<TableList />} />
+        <Route path='/basic-table' element={<BasicTable />} />
       </Routes>
     </BrowserRouter>
   );
